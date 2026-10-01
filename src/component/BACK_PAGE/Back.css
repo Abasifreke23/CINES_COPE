@@ -1,0 +1,39 @@
+.seperate{
+    display: flex;
+}
+.knight-page{
+    padding: 20px;
+}
+.details{
+    display: flex;
+}
+.PEE{
+    padding: 10px;
+}
+.ACD{
+    background-color: var( --color-text-secondary);
+}
+.addlist{
+height: 30px;
+    width: 150px;
+    /* padding: 10px; */
+}.watch_list{
+height: 30px;
+    width: 120px;
+    /* padding: 10px; */
+}
+.over-view{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: solid 3px;
+    border-color: var(--color-text-secondary);
+}
+.img_pack{
+    height: 100px;
+    width: 100px;
+    border-radius: 500px;
+}
+.cast{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

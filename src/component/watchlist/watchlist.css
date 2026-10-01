@@ -1,0 +1,51 @@
+.watchlist {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  /* text-align: center; */
+  /* margin: 50px; */
+}
+.movies {
+  font-weight: bolder;
+  /* margin: 50px; */
+
+}
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.movie-sec-1 {
+  /* margin: 20px; */
+  background-color: var(--color-surface);
+  border-radius: 10px;
+}
+.movie {
+  height: 400px;
+  width: 500px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.p-tag {
+  padding: 10px;
+}
+.all-con {
+  border: solid, 3px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-color: var(--color-text-secondary);
+  margin-bottom: 20px;
+}
+.footer {
+  text-align: center;
+  border: 1px;
+  background-color: var(--color-surface);
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.footer-btn {
+  background-color: var(--color-accent);
+  border: transparent;
+  padding: 5px;
+  border-radius: 5px;
+}

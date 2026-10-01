@@ -1,0 +1,46 @@
+button{
+    background-color: var(--color-accent);
+    padding: 5px;
+    border: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.feature-div{
+ margin-top: 300px;
+ padding: 20px;
+}
+/* "../../../public/astro.jpg" */
+.background-div{
+    background-image: url( https://api.themoviedb.org/3/movie/popular?api_key=${apiKey});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     min-height: 100vh; 
+     
+}
+.p-tag{
+    display: flex;
+}
+.p{
+    font-size: smaller;
+    /* padding: 10px;
+     margin-top: 300px;  */
+
+}
+.interstellar{
+    color: white;
+     /* margin-top: 300px;  */
+
+}
+.feature{
+    color: var(--color-accent);
+    font-size: smaller;
+
+}
+.Watchlist{
+    background-color: var(--color-border);
+    color: var(--color-text-primary);
+
+}
