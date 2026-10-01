@@ -74,7 +74,7 @@
 
 // import { useState } from "react";
 import Logo from "../shared/logo";
-import './login.css'
+import "./Login.css"
 // import Register from "./register";
 // import { data, replace } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
